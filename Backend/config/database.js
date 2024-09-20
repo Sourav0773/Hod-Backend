@@ -1,6 +1,6 @@
 import { MongoClient } from 'mongodb';
 
-const uri = "mongodb://localhost:27017";
+const uri = "mongodb:// 192.168.211.84:27017";
 let db;
 
 export const connectToDb = async () => {
